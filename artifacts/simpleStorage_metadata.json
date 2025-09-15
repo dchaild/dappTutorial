@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"exercises-solidity.sol": "simpleStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"exercises-solidity.sol": {
+			"keccak256": "0x5910617c017ff9f6b7da63e97afeb99cdeca4f8ca35528c296e9e921eb2ca05b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b6aafb0d6b348a385f9f3f6d444bcb70c415ec2003afb2cb62d0f98bb072bfa",
+				"dweb:/ipfs/QmVMqSUgTWKoA5Zkc5REUU7HdKmKHFePFWKU6aXzEx8sp4"
+			]
+		}
+	},
+	"version": 1
+}
