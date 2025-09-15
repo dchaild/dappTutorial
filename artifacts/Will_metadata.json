@@ -11,13 +11,6 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "hasGraduated",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -34,6 +27,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_graduated",
+						"type": "bool"
+					}
+				],
+				"name": "setGraduated",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -83,11 +89,11 @@
 	},
 	"sources": {
 		"will.sol": {
-			"keccak256": "0xa5ce71ef174d972743921845e2b1a52d9066edd9306d8ee7b79d7b067e8a7316",
+			"keccak256": "0x46c25b0b7614dc4321591a61930e48e14da5dde899d75cf1eb5be2eb7d191023",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://88f5c013c02ac9692054f185358433f744600880d196d3b017339c79144776f1",
-				"dweb:/ipfs/QmbhKwLfcpzKJZduqwgfVc3eaxCaPxXsVNQDiwHxaedvYs"
+				"bzz-raw://744848ce547221e460f64b35c063249428981934638efac1ff8518561302762a",
+				"dweb:/ipfs/Qmaw9ywLxUpCgKK6mD1MTkknVWXitCSPedHChufwyq4kYS"
 			]
 		}
 	},

@@ -39,8 +39,8 @@ contract Will {
     }
 
     // oracle simulated switch
-    function hasGraduated() public onlyOwner {
-        graduated = true;
+       function setGraduated(bool _graduated) public onlyOwner {
+        graduated = _graduated;
         payout();
     }
     // Pay each family member based on their wallet
